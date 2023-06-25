@@ -1,0 +1,15 @@
+body {
+    background-color: #6c726c; /* Verde */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.alert {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+}

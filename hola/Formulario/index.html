@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <form method="post" action="guardar.php" enctype="multipart/form-data">
+		<img src="img/download.png" alt="Logo de la empresa" width="200" height="100">
+		<h1>Formulario de Registro</h1>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required><br>
+
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" required><br>
+
+		<label for="sexo">Sexo:</label>
+		<select id="sexo" name="sexo" required>
+			<option value="">Seleccione una opción</option>
+			<option value="Masculino">Masculino</option>
+			<option value="Femenino">Femenino</option>
+			<option value="Otro">Otro</option>
+		</select><br>
+
+		<label for="nivel_estudio">Nivel de Estudio:</label>
+		<select id="nivel_estudio" name="nivel_estudio" required>
+			<option value="">Seleccione una opción</option>
+			<option value="Bachillerato">Bachillerato</option>
+			<option value="Técnico">Técnico</option>
+			<option value="Universitario">Universitario</option>
+			<option value="Posgrado">Posgrado</option>
+		</select><br>
+
+		<label for="foto">Foto:</label>
+		<input type="file" id="foto" name="foto"><br>
+
+		<input type="submit" value="Registrar">
+	</form>
+</body>
+</html>
